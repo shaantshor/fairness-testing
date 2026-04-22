@@ -1,0 +1,13 @@
+dataset,sensitive_feature,n_runs,baseline_mean_idi,baseline_std_idi,proposed_mean_idi,proposed_std_idi,improvement_pct,wilcoxon_stat,wilcoxon_p_value,significant_0.05,cliffs_delta,vargha_delaney_a12,baseline_mean_time_s,proposed_mean_time_s
+adult,age,30,0.367,0.0152,0.6559,0.0245,78.71,465.0,1e-06,True,1.0,1.0,3.041,2.996
+adult,gender,30,0.0678,0.0076,0.3835,0.0323,465.68,465.0,1e-06,True,1.0,1.0,3.057,3.016
+adult,race,30,0.0729,0.0083,0.3817,0.0365,423.35,465.0,1e-06,True,1.0,1.0,3.042,2.97
+compas,Race,30,0.0293,0.0047,0.2557,0.0186,772.81,465.0,1e-06,True,1.0,1.0,3.015,2.982
+compas,Sex,30,0.0239,0.005,0.2188,0.0485,814.07,435.0,1e-06,True,0.9633,0.9817,3.017,2.968
+credit,EDUCATION,30,0.2768,0.0191,0.7311,0.0142,164.13,465.0,1e-06,True,1.0,1.0,3.114,3.093
+credit,MARRIAGE,30,0.0814,0.0088,0.5502,0.0346,576.16,465.0,1e-06,True,1.0,1.0,3.129,3.067
+credit,SEX,30,0.0192,0.0046,0.418,0.0551,2080.87,465.0,0.0,True,1.0,1.0,3.129,3.069
+crime,Black,30,0.0,0.0,0.0,0.0,0.0,N/A,N/A,N/A,0.0,0.5,3.021,3.019
+crime,FemalePctDiv,30,0.0,0.0,0.0,0.0,0.0,N/A,N/A,N/A,0.0,0.5,3.029,3.015
+dutch,age,30,0.0158,0.0042,0.5024,0.0611,3079.96,465.0,1e-06,True,1.0,1.0,3.027,2.98
+dutch,sex,30,0.0061,0.002,0.3737,0.1239,6059.89,378.0,3e-06,True,0.8267,0.9133,3.029,2.987
